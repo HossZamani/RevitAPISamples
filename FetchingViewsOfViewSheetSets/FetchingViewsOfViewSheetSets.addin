@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RevitAddIns>
+
+  <AddIn Type="Command">
+
+    <Name>Get View Count</Name>
+
+    <FullClassName>FetchingViewsOfViewSheetSets.GetViewCount</FullClassName>
+
+    <Text>Fetch views from view sets</Text>
+
+    <Description>Gets number of views in each sheet set</Description>
+
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+
+    <Assembly>FetchingViewsOfViewSheetSets.dll</Assembly>
+
+    <AddInId>044EDE30-A97B-4CC6-9D20-2EA0D2F63E42</AddInId>
+
+    <VendorId>hzamani</VendorId>
+
+    <VendorDescription>SampleRevitAPISnippets</VendorDescription>
+  </AddIn>
+</RevitAddIns>
