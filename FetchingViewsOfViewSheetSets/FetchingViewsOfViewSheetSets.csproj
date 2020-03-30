@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="FetchingViewsOfViewSheetSets.addin" />
+    <None Include="sample.rvt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

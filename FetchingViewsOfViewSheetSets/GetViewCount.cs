@@ -34,7 +34,7 @@ namespace FetchingViewsOfViewSheetSets
 
                     result += set.Name;
 
-                    // getting the Views property takes around 1.5 seconds on the given rvt file.
+                    // getting the Views property takes around 1.5 seconds on the given sample.rvt file.
                     var views = set.Views;
 
                     result += " has " + views.Size.ToString() + " views.\n";
